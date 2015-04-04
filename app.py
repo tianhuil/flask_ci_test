@@ -1,4 +1,4 @@
-import io
+from io import BytesIO
 
 from flask import Flask, request, render_template, send_file
 
@@ -16,11 +16,12 @@ def home():
     </body>
     """
 
+
 @app.route("/img/", methods=["POST"])
 def img():
     picture = request.files["picture"]
 
-    f = io.BytesIO()
+    f = BytesIO()
     picture.save(f)
 
     f.seek(0)   # move to front of stream
