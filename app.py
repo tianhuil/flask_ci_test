@@ -9,6 +9,7 @@ def home():
     return """<!DOCTYPE html>
     <title> File Upload </title>
     <body>
+        <h1> Automatically deployed! </h1>
         <form action="/img/" method="post" enctype="multipart/form-data">
             <input type="file" name="picture" accept="image/*">
             <input type="submit"/>
