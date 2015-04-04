@@ -5,6 +5,6 @@
 Go to `http://104.236.25.127:8080` to check on build status.
 
 ## Deployment
-Deployment done with heroku. We can just run `git push heroku master`.
+Deployment done with heroku at `https://tranquil-earth-4342.herokuapp.com/`. We can just run `git push heroku master`.
 
 Working on deploying upon successful testing upon successful build.
