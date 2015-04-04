@@ -1,0 +1,3 @@
+image: python3.3    # why no python3.4? :(
+script:
+    - echo "testing"
