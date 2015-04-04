@@ -2,3 +2,5 @@ image: python3.3    # why no python3.4? :(
 script:
     - pip install -r requirements.txt
     - py.test
+deploy:
+    - git push git@heroku.com:tranquil-earth-4342.git master
