@@ -8,6 +8,7 @@ def app():
     from app import app
     ctx = app.app_context()
     ctx.push()
+    print("hi")
 
     def teardown():
         ctx.pop()
